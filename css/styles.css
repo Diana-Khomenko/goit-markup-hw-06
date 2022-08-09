@@ -561,6 +561,45 @@ footer {
 .social-footer-icom {
   fill: currentColor;
 }
+
+/* form footer */
+
+.footer-form-wrapper {
+  margin-left: 93px;
+}
+
+.footer-form {
+}
+
+.footer-form-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--second-title);
+}
+
+.footer-form-input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  margin-right: 12px;
+}
+
+.footer-form-input::placeholder {
+
+font-size: 16px;
+line-height: 1.25;
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+
+
 /*Портфолио*/
 
 /*Навигация*/
