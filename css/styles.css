@@ -847,6 +847,7 @@ button {
   border-radius: 4px;
   padding-left: 42px;
   transition: border-color var(--transition-duration) var(--transition-function);
+  cursor: pointer;
 }
 
 .modal-form-input:focus {
@@ -879,7 +880,7 @@ button {
 }
 
 .modal-form-field {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .modal-form-input-wrapper {
@@ -905,6 +906,7 @@ button {
   border-radius: 4px;
   resize: none;
   transition: border-color var(--transition-duration) var(--transition-function);
+  margin-bottom: 20px;
 }
 
 .modal-form-message:focus {
