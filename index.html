@@ -434,22 +434,28 @@
             <p class="footer-form-text">Підпишіться на розсилку</p>
             <form class="footer-form">
               <label class="footer-form-field">
-                   <input type="E-mail" name="user-email" placeholder="E-mail" class="footer-form-input" required>
+                   <input type="email" name="user-email" placeholder="E-mail" class="footer-form-input" required>
               </label>
 
-              <button type="submit" class="footer-form-submit">Підписатися
-                <svg class="footer-btn-icon" width="18" height="18"> <use href="./images/sprite.svg#icon-icon-send-1-2" width="24" height="24"></use> </svg>
-              </button>
+
+<span class="footer-form-btn-icon">
+  <button type="submit" class="footer-form-submit">Підписатися
+    <svg class="footer-btn-icon" width="24" height="24">
+      <use href="./images/sprite.svg#icon-send"></use>
+    </svg>
+  </button>
+</span>
+             
 
             </form>
           </div>
       </div>
     </footer>
 
-    <div class="backdrop is-hidden" data-modal >
+    <div class="backdrop is-hidden " data-modal >
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
-          <svg class="modal-close-btn-icon" width="18" height="18"> <use href="./images/sprite.svg#icon-Vector-1-1"></use> </svg>
+          <svg class="modal-close-btn-icon" width="11" height="11"> <use href="./images/sprite.svg#icon-vector"></use> </svg>
         </button>
 
         <form class="modal-form">
@@ -495,7 +501,7 @@
         </label>
         
         <input type="checkbox" name="user-policy" id="user-policy" class="model-form-chec visually-hidden">
-        <label for="user-policy" class="modal-form-chec-desk">Погоджуюся з розсилкою та приймаю&nbsp;<a href="">Умови договору</a></label>
+        <label for="user-policy" class="modal-form-chec-desk">Погоджуюся з розсилкою та приймаю&nbsp;<a class="modal-form-chec-link" href="">Умови договору</a></label>
 
         <button type="submit" class="modal-form-submit">Відправити</button>
 
