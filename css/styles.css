@@ -941,6 +941,7 @@ button {
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 .model-form-chec:focus + .modal-form-chec-desk::before {
