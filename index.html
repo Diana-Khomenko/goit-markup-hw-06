@@ -452,7 +452,9 @@
       </div>
     </footer>
 
-    <div class="backdrop is-hidden " data-modal >
+    <!-- is-hidden -->
+
+    <div class="backdrop  " data-modal >
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-close-btn-icon" width="11" height="11"> <use href="./images/sprite.svg#icon-vector"></use> </svg>
@@ -462,7 +464,6 @@
           <p class="modal-text">Залиште свої дані, ми вам передзвонимо</p>
 
         <label class="modal-form-field">
-
           <span class="modal-form-input-desk">Ім'я</span>
 
           <span class="modal-form-input-wrapper">
@@ -495,13 +496,14 @@
           </span>
         </label>
 
-        <label class="modal-form-field">
+        <label class="modal-form-field-message">
           <span class="modal-form-input-desk">Коментар</span>
-         <textarea name="user-messsage" class="modal-form-message" placeholder="Введіть текст"></textarea>
+         <textarea name="user-message" class="modal-form-message" placeholder="Введіть текст"></textarea>
         </label>
         
         <input type="checkbox" name="user-policy" id="user-policy" class="model-form-chec visually-hidden">
-        <label for="user-policy" class="modal-form-chec-desk">Погоджуюся з розсилкою та приймаю&nbsp;<a class="modal-form-chec-link" href="">Умови договору</a></label>
+        <label for="user-policy" class="modal-form-chec-desk">Погоджуюся з розсилкою та приймаю&nbsp;<a class="modal-form-chec-link" href="">Умови договору</a>
+        </label>
 
         <button type="submit" class="modal-form-submit">Відправити</button>
 

@@ -621,6 +621,7 @@ footer {
   color: var(--second-title);
   background-color: var(--accent-color);
   border-radius: 4px;
+  border: none;
 
   min-width: 200px;
   height: 50px;
@@ -816,12 +817,10 @@ button {
   background-color: transparent;
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
-  transition: border-color var(--transition-duration) var(--transition-function);
 }
 
-.modal-close-btn:hover,
-.modal-close-btn:focus {
-  border-color: var(--accent-color);
+.modal-close-btn-icon {
+  fill: var(--title-color);
 }
 
 .modal-close-btn-icon {
@@ -876,11 +875,15 @@ button {
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: var(--text-color);
-  margin-bottom: 7px;
+  margin-bottom: 4px;
 }
 
 .modal-form-field {
   margin-bottom: 10px;
+}
+
+.modal-form-field-message {
+  margin-bottom: 20px;
 }
 
 .modal-form-input-wrapper {
@@ -906,7 +909,6 @@ button {
   border-radius: 4px;
   resize: none;
   transition: border-color var(--transition-duration) var(--transition-function);
-  margin-bottom: 20px;
 }
 
 .modal-form-message:focus {
@@ -927,6 +929,7 @@ button {
   display: block;
   width: 16px;
   height: 15px;
+  border-radius: 4px;
   cursor: pointer;
 
   background-image: url(/images/check/border.svg);
@@ -934,9 +937,10 @@ button {
 }
 
 .model-form-chec:checked + .modal-form-chec-desk::before {
-  background-image: url(/images/check/icon\ check.svg);
+  background-image: url(/images/check/chec.svg);
   background-repeat: no-repeat;
   background-position: center;
+  background-color: var(--accent-color);
 }
 
 .model-form-chec:focus + .modal-form-chec-desk::before {
@@ -945,13 +949,14 @@ button {
 
 .modal-form-chec-desk {
   display: flex;
+  justify-content: center;
   justify-items: center;
   align-items: center;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--text-color);
   margin-bottom: 30px;
 }
 
@@ -966,7 +971,7 @@ button {
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: var(--second-title);
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   border-radius: 4px;
   border: none;
   min-width: 200px;
