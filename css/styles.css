@@ -932,12 +932,12 @@ button {
   border-radius: 4px;
   cursor: pointer;
 
-  background-image: url(../images/check/border.svg);
+  background-image: url(/images/check/border.svg);
   margin-right: 7px;
 }
 
 .model-form-chec:checked + .modal-form-chec-desk::before {
-  background-image: url(../images/check/chec.svg);
+  background-image: url(/images/check/chec.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--accent-color);
